@@ -44,7 +44,7 @@ body {
 .header_section {
   padding: 25px 20px;
   border-bottom: 1px solid;
-  background-color: #121518;
+  background-color: black;
   &:hover {
     box-shadow: 0px 0px 20px 0px #ffffff;
   }
@@ -103,7 +103,6 @@ body {
     }
   }
 }
-
 // media
 // header section ends
 
@@ -165,6 +164,7 @@ body {
 // about section starts
 .about_section {
   padding: 50px 0px;
+  background-color: black;
 
   .container {
     padding: 20px 30px;
@@ -217,10 +217,10 @@ body {
         &:last-child {
           img {
             // padding: 80px 0px 80px 200px; 
-            width: 100%;
+            width: 500px;
             height: 70vh;
             display: block;
-            border-radius: 500px 0px 500px 0px;
+            border-radius: 300px 300px 300px 300px;
           }
         }
       }
@@ -257,6 +257,8 @@ body {
     }
 
     .accordion {
+      display: flex;
+      justify-content: space-around;
       transition: all 0.4s ease;
 
       .accordion-item {
@@ -320,6 +322,7 @@ body {
 //  skills section starts
 .skills_section {
   padding: 50px 0px;
+  background-color: black;
 
   .container {
     padding: 20px 23px;
@@ -389,7 +392,6 @@ body {
     }
   }
 }
-
 //  skills section ends
 
 // contact section starts
@@ -415,6 +417,7 @@ body {
 
   // Contact Information section
   .contact-info {
+    text-align: center;
     margin-bottom: 30px;
     background-color: yellow;
     color: var.$black;
@@ -497,7 +500,7 @@ footer {
   color: var.$off_white;
   font-size: 18px;
   text-align: center;
-  background-color: #121518;
+  background-color: black;
   &:hover {
     box-shadow: 0px 0px 20px 0px #ffffff;
   }

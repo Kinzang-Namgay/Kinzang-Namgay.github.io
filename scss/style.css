@@ -37,7 +37,7 @@ body {
 .header_section {
   padding: 25px 20px;
   border-bottom: 1px solid;
-  background-color: #121518;
+  background-color: black;
 }
 .header_section:hover {
   box-shadow: 0px 0px 20px 0px #ffffff;
@@ -132,6 +132,7 @@ body {
 
 .about_section {
   padding: 50px 0px;
+  background-color: black;
 }
 .about_section .container {
   padding: 20px 30px;
@@ -174,10 +175,10 @@ body {
   gap: 20px;
 }
 .about_section .container .row .col-6:last-child img {
-  width: 100%;
+  width: 500px;
   height: 70vh;
   display: block;
-  border-radius: 500px 0px 500px 0px;
+  border-radius: 300px 300px 300px 300px;
 }
 
 .experience_section {
@@ -203,6 +204,8 @@ body {
   text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.8);
 }
 .experience_section .container .accordion {
+  display: flex;
+  justify-content: space-around;
   transition: all 0.4s ease;
 }
 .experience_section .container .accordion .accordion-item {
@@ -251,6 +254,7 @@ body {
 
 .skills_section {
   padding: 50px 0px;
+  background-color: black;
 }
 .skills_section .container {
   padding: 20px 23px;
@@ -328,6 +332,7 @@ body {
   color: #000000;
 }
 .contact-section .contact-info {
+  text-align: center;
   margin-bottom: 30px;
   background-color: yellow;
   color: #000000;
@@ -398,7 +403,7 @@ footer {
   color: #F6F5F5;
   font-size: 18px;
   text-align: center;
-  background-color: #121518;
+  background-color: black;
 }
 footer:hover {
   box-shadow: 0px 0px 20px 0px #ffffff;
