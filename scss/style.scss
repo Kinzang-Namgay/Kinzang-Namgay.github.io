@@ -216,7 +216,6 @@ body {
 
         &:last-child {
           img {
-            // padding: 80px 0px 80px 200px; 
             width: 500px;
             height: 70vh;
             display: block;
@@ -265,7 +264,7 @@ body {
         border-bottom: 1px solid #ddd;
 
         .accordion-header {
-          background-color: var.$off_white;
+          background-color: yellow;
           border: none;
           padding: 15px;
           cursor: pointer;
@@ -290,7 +289,7 @@ body {
         }
 
         .accordion-collapse {
-          background-color: var.$white;
+          background-color: yellow;
           border-top: 1px solid #ddd;
           padding: 15px;
           transition: max-height 0.3s ease;
@@ -397,6 +396,7 @@ body {
 // contact section starts
 .contact-section {
   padding: 100px 0;
+  background-color: var.$off_white;
 
   .container {
     max-width: 1500px;
@@ -501,9 +501,6 @@ footer {
   font-size: 18px;
   text-align: center;
   background-color: black;
-  &:hover {
-    box-shadow: 0px 0px 20px 0px #ffffff;
-  }
 
   .footer-content {
     display: flex;
