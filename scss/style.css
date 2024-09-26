@@ -5,10 +5,7 @@
 }
 
 body {
-  max-width: 100%;
-  background-image: url("../img/laptop-5673901_640.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #000000;
 }
 
 /* Webkit scrollbar starts*/
@@ -35,12 +32,7 @@ body {
 }
 
 .header_section {
-  padding: 25px 20px;
   border-bottom: 1px solid;
-  background-color: black;
-}
-.header_section:hover {
-  box-shadow: 0px 0px 20px 0px #ffffff;
 }
 .header_section nav .logo {
   margin-left: 40px;
@@ -100,7 +92,7 @@ body {
   padding: 80px 20px;
 }
 .hero_section .container .hero_item .me_img {
-  width: 500px;
+  width: 700px;
   height: auto;
   padding: 0px 100px;
   justify-content: center;
@@ -132,7 +124,6 @@ body {
 
 .about_section {
   padding: 50px 0px;
-  background-color: black;
 }
 .about_section .container {
   padding: 20px 30px;
@@ -178,12 +169,13 @@ body {
   width: 500px;
   height: 70vh;
   display: block;
-  border-radius: 300px 300px 300px 300px;
+  border-radius: 300px;
 }
 
 .experience_section {
   min-height: 70vh;
   padding: 200px 0px;
+  background-color: #ffffff;
 }
 .experience_section .container {
   max-width: 1500px;
@@ -254,7 +246,6 @@ body {
 
 .skills_section {
   padding: 50px 0px;
-  background-color: black;
 }
 .skills_section .container {
   padding: 20px 23px;
@@ -404,7 +395,6 @@ footer {
   color: #F6F5F5;
   font-size: 18px;
   text-align: center;
-  background-color: black;
 }
 footer .footer-content {
   display: flex;
