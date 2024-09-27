@@ -252,8 +252,6 @@ body {
     }
 
     .accordion {
-      display: flex;
-      justify-content: space-around;
       transition: all 0.4s ease;
 
       .accordion-item {

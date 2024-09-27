@@ -196,8 +196,6 @@ body {
   text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.8);
 }
 .experience_section .container .accordion {
-  display: flex;
-  justify-content: space-around;
   transition: all 0.4s ease;
 }
 .experience_section .container .accordion .accordion-item {
