@@ -64,7 +64,7 @@ body {
   margin-left: 30px;
 }
 .header_section nav .main_nav button a {
-  background-color: #000000;
+  background-color: indigo;
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
@@ -108,75 +108,123 @@ body {
 }
 .hero_section button a:hover {
   background-color: #ffffff;
+  color: #000000;
+}
+
+.about_section {
+  padding: 100px 0px;
+  color: #000000;
+  background-color: rgb(207, 205, 205);
+}
+.about_section .container img {
+  width: 70%;
+  text-align: left;
+  border-radius: 100%;
+}
+.about_section .container h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.about_section .container h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.about_section .container p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.about_section .container .social_icons {
+  max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.about_section .container .social_icons a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.about_section .container .social_icons a:hover {
+  color: indigo;
 }
 
 .experience_section {
-  min-height: 70vh;
-  padding: 200px 0px;
+  padding: 100px 0px;
 }
-.experience_section .container {
-  max-width: 1500px;
-  margin: 0 auto;
+.experience_section .container .cs_row {
+  gap: 20px;
+  justify-content: space-between;
 }
-.experience_section .container .main {
-  text-align: center;
-  margin-bottom: 40px;
+.experience_section .container h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #F6F5F5;
 }
-.experience_section .container .main h1 {
-  font-size: 40px;
+.experience_section .container .exp_box {
+  box-sizing: border-box;
+  padding: 25px;
+  border: 2px solid transparent;
+  transition: all 400ms ease;
+  width: 49%;
+}
+.experience_section .container .exp_box:hover {
+  border-color: #F6F5F5;
+}
+.experience_section .container .exp_box h3 {
+  font-size: 32px;
+  font-weight: 500;
   color: #000000;
 }
-.experience_section .container .main h1 span {
+.experience_section .container .exp_box h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.experience_section .container .exp_box ul {
+  font-size: 18px;
+  font-weight: 400;
+  color: #F6F5F5;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.experience_section {
+  padding: 100px 0px;
+}
+.experience_section .container .cs_row {
+  gap: 20px;
+  justify-content: space-between;
+}
+.experience_section .container h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #F6F5F5;
+}
+.experience_section .container .exp_box {
+  box-sizing: border-box;
+  padding: 25px;
+  border: 2px solid transparent;
+  transition: all 400ms ease;
+  width: 49%;
+}
+.experience_section .container .exp_box:hover {
+  border-color: #F6F5F5;
+}
+.experience_section .container .exp_box h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #F6F5F5;
+}
+.experience_section .container .exp_box h4 {
+  font-size: 24px;
+  font-weight: 400;
   color: #ffffff;
 }
-.experience_section .container .main h1 span:hover {
-  text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.8);
-}
-.experience_section .container .accordion {
-  transition: all 0.4s ease;
-}
-.experience_section .container .accordion .accordion-item {
-  border-bottom: 1px solid #ddd;
-}
-.experience_section .container .accordion .accordion-item .accordion-header {
-  background-color: indigo;
-  border: none;
-  padding: 15px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.experience_section .container .accordion .accordion-item .accordion-header button {
-  font-size: 20px;
-  color: #000000;
-  font-weight: bold;
-  width: 100%;
-  text-align: left;
-  transition: color 0.3s ease;
-}
-.experience_section .container .accordion .accordion-item .accordion-header button:hover {
-  color: #000000;
-}
-.experience_section .container .accordion .accordion-item .accordion-header button.collapsed {
-  color: #000000;
-}
-.experience_section .container .accordion .accordion-item .accordion-collapse {
-  background-color: indigo;
-  border-top: 1px solid #ddd;
-  padding: 15px;
-  transition: max-height 0.3s ease;
-  overflow: hidden;
-}
-.experience_section .container .accordion .accordion-item .accordion-collapse.show {
-  max-height: 500px;
-  /* Adjust as per content height */
-}
-.experience_section .container .accordion .accordion-item .accordion-collapse .accordion-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #000000;
-  line-height: 1.6;
-}
-.experience_section .container .accordion .accordion-item .accordion-collapse .accordion-body strong {
-  color: #000000;
+.experience_section .container .exp_box ul {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(207, 205, 205);
+  padding-left: 20px;
+  margin-top: 10px;
 }
 
 .skills_section {
@@ -211,7 +259,7 @@ body {
   margin-bottom: 30px;
   border: none;
   transition: transform 0.3s ease;
-  background-color: indigo;
+  background-color: #F6F5F5;
 }
 .skills_section .container .row .card:hover {
   transform: translateY(-10px);
@@ -288,7 +336,7 @@ body {
   opacity: 1;
 }
 .project-section .gallery-item .overlay-text {
-  color: #fff;
+  color: white;
   font-size: 1.5rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -297,7 +345,6 @@ body {
 
 .contact-section {
   padding: 100px 0;
-  background-color: #000000;
 }
 .contact-section .container {
   max-width: 1500px;
@@ -316,7 +363,7 @@ body {
 .contact-section .contact-info {
   text-align: center;
   margin-bottom: 30px;
-  background-color: indigo;
+  background-color: rgb(207, 205, 205);
   color: #000000;
   padding: 30px;
   border-radius: 10px;
@@ -329,7 +376,7 @@ body {
   margin-bottom: 5px;
 }
 .contact-section .contact-form {
-  background-color: indigo;
+  background-color: rgb(207, 205, 205);
   padding: 30px;
   border-radius: 10px;
   transition: all 0.4s ease;
@@ -401,22 +448,6 @@ footer .footer-content .footer-left h3 {
 footer .footer-content .footer-left p {
   margin-bottom: 20px;
   font-size: 18px;
-}
-footer .footer-content .footer-left .social-links {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-footer .footer-content .footer-left .social-links li {
-  display: inline-block;
-  margin-right: 10px;
-}
-footer .footer-content .footer-left .social-links li a {
-  color: #ffffff;
-  font-size: 20px;
-}
-footer .footer-content .footer-left .social-links li a:hover {
-  color: indigo;
 }
 footer .footer-content .footer-right p {
   margin-top: 0px;

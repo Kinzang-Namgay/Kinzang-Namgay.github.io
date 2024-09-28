@@ -7,9 +7,9 @@
   max-width: 100%;
 }
 
-// body {
-//   background-color: var.$white;
-// }
+body {
+  background-color: var.$black;
+}
 
 /* Webkit scrollbar starts*/
 ::-webkit-scrollbar {
@@ -129,7 +129,7 @@
 
           &:hover {
               background-color: var.$white;
-
+              color: var.$black;
           }
       }
   }
@@ -138,14 +138,15 @@
 
 // about section starts
 .about_section {
-  background-color: var.$white;
   padding: 100px 0px;
-  color: var.$white;
+  color: var.$black;
+  background-color: var.$gray;
   .container {
       img {
           width: 70%;
           text-align: left;
           border-radius: 100%;
+          // border: 1px solid red;
       }
 
       h3 {
@@ -169,7 +170,7 @@
           justify-content: space-between;
 
           a {
-              color: var.$white;
+              color: var.$black;
               text-decoration: none;
               font-size: 20px;
               transition: all 0.4s ease;
@@ -181,6 +182,7 @@
       }
   }
 }
+
 .experience_section {
   padding: 100px 0px;
 
@@ -193,7 +195,7 @@
       h2 {
           margin-bottom: 20px;
           font-size: 36px;
-          color: var.$gray;
+          color: var.$off_white;
       }
 
       .exp_box {
@@ -204,7 +206,7 @@
           width: 49%;
 
           &:hover {
-              border-color: var.$gray;
+              border-color: var.$off_white;
           }
 
           h3 {
@@ -221,7 +223,7 @@
           ul {
               font-size: 18px;
               font-weight: 400;
-              color: var.$gray;
+              color: var.$off_white;
               padding-left: 20px;
               margin-top: 10px;
           }
@@ -231,89 +233,56 @@
 // about section ends 
 
 // experience section starts
+
 .experience_section {
-  min-height: 70vh;
-  padding: 200px 0px;
+  padding: 100px 0px;
 
   .container {
-    max-width: 1500px;
-    margin: 0 auto;
+      .cs_row {
+          gap: 20px;
+          justify-content: space-between;
+      }
 
-    .main {
-      text-align: center;
-      margin-bottom: 40px;
+      h2 {
+          margin-bottom: 20px;
+          font-size: 36px;
+          color: var.$off_white;
+      }
 
-      h1 {
-        font-size: 40px;
-        color: var.$black;
-
-        span {
-          color: var.$white;
+      .exp_box {
+          box-sizing: border-box;
+          padding: 25px;
+          border: 2px solid transparent;
+          transition: all 400ms ease;
+          width: 49%;
 
           &:hover {
-            text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.8);
+              border-color: var.$off_white;
           }
-        }
+
+          h3 {
+              font-size: 32px;
+              font-weight: 500;
+              color: var.$off_white;
+          }
+
+          h4 {
+              font-size: 24px;
+              font-weight: 400;
+              color: var.$white;
+          }
+
+          ul {
+              font-size: 18px;
+              font-weight: 400;
+              color: var.$gray;
+              padding-left: 20px;
+              margin-top: 10px;
+          }
       }
-    }
-
-    .accordion {
-      transition: all 0.4s ease;
-
-      .accordion-item {
-        border-bottom: 1px solid #ddd;
-
-        .accordion-header {
-          background-color: indigo;
-          border: none;
-          padding: 15px;
-          cursor: pointer;
-          transition: background-color 0.3s ease;
-
-          button {
-            font-size: 20px;
-            color: var.$black;
-            font-weight: bold;
-            width: 100%;
-            text-align: left;
-            transition: color 0.3s ease;
-
-            &:hover {
-              color: var.$black;
-            }
-
-            &.collapsed {
-              color: var.$black;
-            }
-          }
-        }
-
-        .accordion-collapse {
-          background-color: indigo;
-          border-top: 1px solid #ddd;
-          padding: 15px;
-          transition: max-height 0.3s ease;
-          overflow: hidden;
-
-          &.show {
-            max-height: 500px;
-            /* Adjust as per content height */
-          }
-
-          .accordion-body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            color: var.$black;
-            line-height: 1.6;
-
-            strong {
-              color: var.$black;
-            }
-          }
-        }
-      }
-    }
   }
 }
+
 
 // experience section ends 
 
@@ -325,7 +294,7 @@
   .container {
     padding: 20px 23px;
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 0 auto;  
 
     .row {
       display: flex;
@@ -355,7 +324,7 @@
         margin-bottom: 30px;
         border: none;
         transition: transform 0.3s ease;
-        background-color: indigo;
+        background-color: var.$off_white;
 
         &:hover {
           transform: translateY(-10px);
@@ -446,7 +415,7 @@
     }
 
     .overlay-text {
-      color: #fff;
+      color: #ffff  ;
       font-size: 1.5rem;
       font-weight: 600;
       text-transform: uppercase;
@@ -460,7 +429,6 @@
 // contact section starts
 .contact-section {
   padding: 100px 0;
-  background-color: var.$black;
 
   .container {
     max-width: 1500px;
@@ -482,7 +450,7 @@
   .contact-info {
     text-align: center;
     margin-bottom: 30px;
-    background-color: indigo;
+    background-color:  var.$gray;
     color: var.$black;
     padding: 30px;
     border-radius: 10px;
@@ -498,7 +466,7 @@
 
   // Contact Form section
   .contact-form {
-    background-color: indigo;
+    background-color:  var.$gray;
     padding: 30px;
     border-radius: 10px;
     transition: all 0.4s ease;
@@ -581,26 +549,6 @@ footer {
       p {
         margin-bottom: 20px;
         font-size: 18px;
-      }
-
-      .social-links {
-        list-style-type: none;
-        padding: 0px;
-        margin: 0px;
-
-        li {
-          display: inline-block;
-          margin-right: 10px;
-
-          a {
-            color: var.$white;
-            font-size: 20px;
-
-            &:hover {
-              color: indigo;
-            }
-          }
-        }
       }
     }
 
