@@ -426,7 +426,8 @@ body {
 footer {
   max-width: 100%;
   padding: 50px 0px;
-  color: #F6F5F5;
+  background-color: rgb(207, 205, 205);
+  color: #000000;
   font-size: 18px;
   text-align: center;
 }
@@ -440,7 +441,7 @@ footer .footer-content {
 footer .footer-content .footer-left h3 {
   margin-top: 0px;
   font-size: 24px;
-  color: #F6F5F5;
+  color: #000000;
 }
 footer .footer-content .footer-left p {
   margin-bottom: 20px;
@@ -450,7 +451,7 @@ footer .footer-content .footer-right p {
   margin-top: 0px;
   font-weight: bold;
   font-size: 18px;
-  color: #F6F5F5;
+  color: #000000;
 }
 footer .footer-content .footer-right ul {
   list-style-type: none;
@@ -461,6 +462,9 @@ footer .footer-content .footer-right ul li {
   margin-bottom: 8px;
   font-size: 18px;
 }
+footer .footer-content .footer-right ul li a {
+  color: #000000;
+}
 footer .footer-content .footer-right ul li:last-child {
   margin-bottom: 0px;
 }
@@ -470,17 +474,18 @@ footer .footer-content .footer-right ul li:last-child {
     padding-right: 120px;
   }
   .hero_section h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
   .about_section {
     text-align: center;
   }
   .about_section .social_icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 180px;
+  }
+  .experience_section {
+    margin-left: 100px;
   }
   #contact_section iframe {
-    width: 100px;
+    width: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
